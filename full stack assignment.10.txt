@@ -1,0 +1,11 @@
+1.
+The getattr() function returns the value of the specified attribute from the specified object.
+Whereas,This method should return the (computed) attribute value or raise an AttributeError exception.
+2.
+ Descriptors are a low-level mechanism that lets you hook into an object's attributes being accessed. 
+Properties are a high-level application of this; that is, properties are implemented using descriptors.
+3.
+The main difference between __getattr__ and __getattribute__ is that if the attribute was not found by the usual way then __getattr__ is used.
+An attribute is a name that appears after an object name. For example, someObj.name . An instance variable is a name in the __dict__ of an object.
+
+
